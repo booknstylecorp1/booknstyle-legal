@@ -2,41 +2,233 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Delete Your Account | BookNStyle</title>
+<meta name="theme-color" content="#0A0B11">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEfUlEQVR42r2Xy48UVRTGf/fWreoHPU8GGGBGHV4Oo1GJRhfCghgjJMLGP0DjyrhyYeLKhYkmbDTBnQuNhugCjYnRRBJJBJUgiQSBGIyKo5GHCPO0u7qr6tY9LqqmnUaYmYYeT9Kdvou+59zv+85LrR68R5hnkp+0Bq0UnTAngnPZ7+uvNK3OBd94+EaBgNAZU/lXYoXEpqh5UZj5Ly8XsmMUO1LXKfeZeVpR8DW+ZwijtImEmXt5uWBwAvXYopSiQ+g3LRWhFllKgaFc8AijzI8WAd94ANQji1aKDvtu0qCVoh5ZIPMpAjo7KKLEofVyuG41rTNfvlH5WQNCxzlfkA6XKVxrMFqpJatdKdVESZyQOkEp8PJXOJFmGiulELn5zZJTYtqJPE5S6lECQMH3KBcDkjRlZjZEK0WlHGA8TeqydAt8D7cIsmYx4aRO6CoHbN2wmnUDFbaNrkVrxYUrs5w8d4mR9X1sGu7n1I+X+fK7caZmG/R2FRka7OHc+b/orhQXREIvFIDkomnElqMnxwmjhGeevJ9n9zzAulUVjpz8jQ8P/0CaOt5+eS8fvPoUW0dWsXvHKK88/zgbhvoXTWe9VPhFII4tE9M1rk3XCMMYrRXWOt779HvGL04yNjLA/hd3sWv73Tw4NsTOhzfeHgX/FSHo/IPKggp8j9imhPWYUuBhlGP/ga85fPxn3jp4nKE1vdRji3eTFNftVBIREOcQl4JIMytcLrpi4NGILOcvTPLRF2cY2zTIGy/tYfMdK4mT1h7QfgA5D1kADmtTothydSpkeE03W4Z7uTZV47V3j1ELY4znMT1b5+Ch01yZqGI8fUMxmvaKaRaAFejrKjB210q2jgywd/smXn//BO98dpaZWkT3ioA0FRLrOHTsJ4qBuWmV1W0CgEiGgHMOJ0I1jJmYCRm9s589j26kr1KkEaV5Q1NUSsGCJb5tClzq0AhTsw3O/T7J0VN/sO/ACTav72Hfczt484WddK8IsKlDqWwY6UgaztUFkRSXOjwNxcAw0Fti8u+Iz78dZ3Im5JGxQZ7ePUbYSJY0UZlbEqHOeoFI1g+0gmoY42mo1hqMDvdlZXgJTaY9CpjLAmlVtALfU1ibohXU6nGTgo4FoADnBGtTrLU454Cs4yVWGOwv42tAHJ988+sNc/72KFAQGE132cfTiqKfxR4lKY9tW88TDw1x6VqV/R+f4cjpi1SK/qJlGECtXXev+EZTnzcotnRDESpFny1DPQz2l7lvw8qsG16tcuqXCXrKPluGe/lzMuSrs5e5Ot2gq+QvqH4RKBU8EusWDuB6s6mjHqdAhkapYBAnVBsW54Ry0RAYveh0NT8A40SWPIT6RlPwveYlqcv+21X2M43kWbFkTYlgci3habVo0RDJKGlZOHJxtrsjoMC5PAsSKxR83fZFt7SmucxXYjNfWilIbMZrqWCywXIZHEsOeSnfvrIVLU9DpRRhlFIueKwoGKJkmVazINNPGP07G5j5004YWXzjUQj0/7+cziGRWEdil3M9b73zH2nFS9coRNyOAAAAAElFTkSuQmCC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..500;1,6..96,400..500&amp;family=Inter:wght@400;500;600&amp;display=swap">
 <style>
-  :root { --ink:#16182B; --gold:#C8956A; --soft:#666A78; --cream:#FAFAF7; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--cream); color:var(--ink);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-  header { background:var(--ink); padding:28px 20px; text-align:center; }
-  header .mark { font-family:Didot,Georgia,"Times New Roman",serif; font-size:34px; color:var(--gold); line-height:1; }
-  header .name { margin-top:6px; font-size:11px; letter-spacing:2px; color:#E6C49B; text-transform:uppercase; }
-  main { max-width:760px; margin:0 auto; padding:36px 20px 72px; }
-  h1 { font-size:30px; line-height:1.25; margin:0 0 6px; }
-  h2 { font-size:21px; margin:38px 0 10px; padding-top:18px; border-top:1px solid #E6E1D6; }
-  h3 { font-size:17px; margin:26px 0 8px; color:#2A2E45; }
-  p, li { margin:0 0 13px; }
-  ul, ol { padding-left:22px; margin:0 0 13px; }
-  a { color:#8A5F38; }
-  strong { color:var(--ink); }
-  table { width:100%; border-collapse:collapse; margin:0 0 18px; font-size:15px; }
-  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid #E6E1D6; vertical-align:top; }
-  th { font-size:13px; letter-spacing:.4px; text-transform:uppercase; color:var(--soft); }
-  .steps { background:#fff; border:1px solid #E6E1D6; border-radius:10px; padding:20px 20px 8px; }
-  footer { max-width:760px; margin:0 auto; padding:0 20px 56px; color:var(--soft); font-size:13px; }
-  @media (prefers-color-scheme: dark) {
-    :root { --cream:#0E1018; --ink:#F5F4EE; --soft:#8E8F95; }
-    body { background:var(--cream); color:var(--ink); }
-    header { background:#181B26; }
-    h2 { border-top-color:#262936; } h3 { color:#D8D6CE; } a { color:#D8AF87; }
-    th, td { border-bottom-color:#262936; }
-    .steps { background:#161926; border-color:#262936; }
+  /* BookNStyle legal pages in the booknstyle.com "Editorial Luxe" look (web/site/styles.css):
+     ink ground with a soft champagne light, the mark + BOOKNSTYLE lockup, Bodoni Moda headings,
+     Inter text tuned for long reading (17px, line height 1.7, about 68 characters a line) and
+     champagne links that stay underlined. Dark only, like the website. The print styles at the
+     end give black text on white paper. Every page in docs/ carries this same block: change
+     one, change them all (then copy each page to the booknstyle-legal repo). */
+  :root {
+    --ink-0: #0A0B11; --navy: #16182B; --navy-2: #1D2038;
+    --text: #F5F4EE; --text-body: rgba(245, 244, 238, .86); --text-2: rgba(245, 244, 238, .76); --text-3: rgba(245, 244, 238, .58);
+    --champ: #C8956A; --champ-l: #DFB990; --ink-text: #16182B;
+    --line: rgba(223, 185, 144, .24); --line-soft: rgba(245, 244, 238, .09);
+    --grad-gold: linear-gradient(135deg, #EACBA5 0%, #D7A97E 38%, #C8956A 62%, #B5825A 100%);
+    --grad-gold-text: linear-gradient(100deg, #F0D3AE 0%, #DFB990 35%, #C8956A 70%, #E7C59D 100%);
+    --rule-gold: linear-gradient(90deg, rgba(200, 149, 106, 0), #C8956A, rgba(200, 149, 106, 0));
+    --card: linear-gradient(180deg, rgba(29, 32, 56, .9), rgba(22, 24, 43, .96));
+    --serif: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+    --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --ease-out: cubic-bezier(.16, 1, .3, 1);
+    --measure: 36rem;
+    color-scheme: dark;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { background: var(--ink-0); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    position: relative; margin: 0; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column;
+    background: var(--ink-0); color: var(--text-body);
+    font-family: var(--sans); font-size: 1.0625rem; line-height: 1.7;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-wrap: break-word;
+  }
+  /* the website's light: champagne at the top, a hint of navy under it */
+  body::before {
+    content: ""; position: absolute; inset: 0 0 auto; height: 760px; pointer-events: none;
+    background:
+      radial-gradient(52% 300px at 50% 0, rgba(200, 149, 106, .17), rgba(200, 149, 106, 0)),
+      radial-gradient(80% 460px at 50% 140px, rgba(42, 46, 84, .5), rgba(10, 11, 17, 0));
+  }
+  ::selection { background: rgba(200, 149, 106, .38); color: #fff; }
+  :focus-visible { outline: 2px solid var(--champ-l); outline-offset: 3px; border-radius: 4px; }
+
+  /* Header: the mark, the BOOKNSTYLE wordmark and a gold rule */
+  .top { position: relative; z-index: 1; padding: 40px 20px 0; text-align: center; }
+  .brand { display: inline-flex; flex-direction: column; align-items: center; color: var(--text); text-decoration: none; border-radius: 10px; }
+  .brand img { display: block; width: 50px; height: auto; filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .5)); }
+  .brand .name { margin-top: 12px; margin-right: -.42em; font-size: 12px; font-weight: 600; line-height: 1; letter-spacing: .42em; text-transform: uppercase; }
+  .brand .rule { display: block; width: 72px; height: 1px; margin-top: 12px; background: var(--rule-gold); }
+
+  main { position: relative; z-index: 1; width: 100%; max-width: calc(var(--measure) + 40px); margin: 0 auto; padding: clamp(36px, 5vw, 56px) 20px clamp(56px, 8vw, 88px); }
+
+  /* Title block: Bodoni with a gold italic, the date as a tracked eyebrow, a gold rule */
+  .title { margin-bottom: clamp(34px, 5vw, 48px); text-align: center; }
+  .title::after { content: ""; display: block; width: 72px; height: 1px; margin: 30px auto 0; background: var(--rule-gold); }
+  h1 {
+    margin: 0; color: var(--text); font-family: var(--serif); font-weight: 400; font-optical-sizing: auto;
+    font-size: clamp(2.3rem, 1.6rem + 2.8vw, 3.5rem); line-height: 1.06; letter-spacing: -.022em; text-wrap: balance;
+  }
+  h1 em { font-style: italic; font-weight: 400; background: var(--grad-gold-text); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: .06em; }
+  .meta { margin: 20px 0 0; font-size: .75rem; font-weight: 600; line-height: 1.9; letter-spacing: .16em; text-transform: uppercase; color: var(--text-3); text-wrap: balance; }
+  .meta strong { color: var(--champ-l); font-weight: 600; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 12px; margin: 0 0 18px; font-size: .75rem; font-weight: 600; line-height: 1.4; letter-spacing: .24em; text-transform: uppercase; color: var(--champ-l); }
+  .eyebrow::before, .eyebrow::after { content: ""; width: 26px; height: 1px; background: currentColor; opacity: .55; }
+  .lead { margin: 18px auto 0; max-width: 32em; color: var(--text-2); font-size: 1.125rem; line-height: 1.6; text-wrap: pretty; }
+
+  /* Reading */
+  p, li { margin: 0 0 1.05em; }
+  ul, ol { margin: 0 0 1.3em; padding-left: 1.4em; }
+  li { padding-left: .3em; }
+  li::marker { color: var(--champ); }
+  ol > li::marker { font-family: var(--serif); font-style: italic; font-size: 1.1em; }
+  strong { color: var(--text); font-weight: 600; }
+  em { color: var(--text); }
+  h2 {
+    position: relative; margin: 2.75rem 0 1rem; padding-top: 1.7rem; border-top: 1px solid var(--line-soft);
+    color: var(--text); font-family: var(--serif); font-weight: 400; font-optical-sizing: auto;
+    font-size: clamp(1.6rem, 1.35rem + 1vw, 2.05rem); line-height: 1.15; letter-spacing: -.012em; text-wrap: balance;
+  }
+  h2::before { content: ""; position: absolute; left: 0; top: -1px; width: 48px; height: 1px; background: var(--champ); }
+  .title + h2 { margin-top: 0; padding-top: 0; border-top: 0; }
+  .title + h2::before { content: none; }
+  h3 { margin: 2.1rem 0 .55rem; color: var(--text); font-family: var(--sans); font-weight: 600; font-size: 1.125rem; line-height: 1.4; letter-spacing: -.005em; }
+  h2 + h3 { margin-top: 1.4rem; }
+  a {
+    color: var(--champ-l); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em;
+    text-decoration-color: rgba(223, 185, 144, .55); transition: color .25s, text-decoration-color .25s;
+  }
+  a:hover { color: #F0D3AE; text-decoration-color: currentColor; }
+  .nowrap { white-space: nowrap; }
+
+  /* Boxed callouts: the website's navy card with a gold hairline */
+  .contact, .steps {
+    margin: 1.75rem 0 2rem; padding: 24px 24px 8px; border-radius: 22px; border: 1px solid var(--line); background: var(--card);
+    box-shadow: 0 30px 60px -36px rgba(0, 0, 0, .85), inset 0 1px 0 rgba(255, 255, 255, .05);
+  }
+  .contact p { margin-bottom: 20px; }
+  .contact .nowrap { display: block; margin-bottom: 10px; }
+  .contact strong { display: block; margin-bottom: 8px; font-size: .75rem; font-weight: 600; line-height: 1.4; letter-spacing: .2em; text-transform: uppercase; color: var(--champ-l); }
+  .steps ol { margin-bottom: 1em; }
+
+  /* The website's gold pill */
+  .pill {
+    position: relative; isolation: isolate; overflow: hidden; vertical-align: middle;
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    min-height: 56px; padding: 0 clamp(18px, 5vw, 26px); border-radius: 999px;
+    background: var(--grad-gold); color: var(--ink-text);
+    font-family: var(--sans); font-size: 1rem; font-weight: 600; line-height: 1.2; letter-spacing: .01em; text-decoration: none; white-space: nowrap;
+    box-shadow: 0 10px 30px -12px rgba(200, 149, 106, .65), inset 0 1px 0 rgba(255, 255, 255, .35);
+    transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out);
+  }
+  .pill::after { /* the light sweep on hover */
+    content: ""; position: absolute; inset: -20% auto -20% -60%; width: 45%; z-index: -1;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .55), rgba(255, 255, 255, 0));
+    transform: translateX(0) skewX(-20deg); transition: transform .9s var(--ease-out);
+  }
+  .pill:hover { color: var(--ink-text); transform: translateY(-2px); box-shadow: 0 18px 40px -14px rgba(200, 149, 106, .8), inset 0 1px 0 rgba(255, 255, 255, .4); }
+  .pill:hover::after { transform: translateX(420%) skewX(-20deg); }
+  .pill:focus-visible { outline-offset: 4px; border-radius: 999px; }
+  .pill svg { flex: none; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .5s var(--ease-out); }
+  .pill:hover svg { transform: translateX(4px); }
+  .cta { margin: 36px 0 0; text-align: center; }
+
+  /* Page list (legal home and the 404 page) */
+  .doc-links { display: grid; gap: 12px; margin: 0; }
+  .doc-links br { display: none; }
+  .doc-links a {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 76px; padding: 16px 18px 16px 24px;
+    border-radius: 22px; border: 1px solid var(--line); background: var(--card); box-shadow: 0 30px 60px -40px rgba(0, 0, 0, .85);
+    color: var(--text); font-family: var(--serif); font-size: 1.5rem; line-height: 1.2; text-decoration: none;
+    transition: border-color .3s, transform .5s var(--ease-out);
+  }
+  .doc-links a:hover { color: var(--text); border-color: rgba(223, 185, 144, .6); transform: translateY(-2px); }
+  .go { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); color: var(--champ-l); transition: transform .5s var(--ease-out), border-color .3s; }
+  .go svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .doc-links a:hover .go { transform: translateX(3px); border-color: var(--champ-l); }
+
+  /* Table (delete-account): a navy card; on phones each row stacks under small gold labels */
+  table {
+    width: 100%; margin: 1.5rem 0 2rem; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: 20px;
+    overflow: hidden; background: rgba(22, 24, 43, .6); font-size: .9375rem; line-height: 1.6;
+  }
+  th, td { padding: 14px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line-soft); }
+  tr:last-child > td { border-bottom: 0; }
+  th { background: rgba(29, 32, 56, .95); border-bottom-color: var(--line); font-size: .6875rem; font-weight: 600; line-height: 1.5; letter-spacing: .2em; text-transform: uppercase; color: var(--champ-l); }
+  td:first-child { color: var(--text); font-weight: 500; }
+  /* Set column shares: left to itself, Safari squeezed the Why column to one or two words a line */
+  th:nth-child(1) { width: 36%; } th:nth-child(2), th:nth-child(3) { width: 32%; }
+  @media (max-width: 640px) {
+    table, tbody, tr, td { display: block; width: 100%; }
+    tr:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+    tr { padding: 16px 18px 15px; border-bottom: 1px solid var(--line-soft); }
+    tr:last-child { border-bottom: 0; }
+    td { padding: 0; border: 0; }
+    td + td { margin-top: 10px; }
+    td[data-label]::before { content: attr(data-label); display: block; margin-bottom: 1px; font-size: .6875rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--champ-l); }
+  }
+
+  footer {
+    position: relative; z-index: 1; width: 100%; max-width: calc(var(--measure) + 40px); margin: auto auto 0; padding: 0 20px 44px;
+    text-align: center; color: var(--text-3); font-size: .8125rem; line-height: 1.8;
+  }
+  footer::before { content: ""; display: block; height: 1px; margin-bottom: 26px; background: var(--line-soft); }
+
+  @media (max-width: 380px) { .meta .nowrap { white-space: normal; } }
+  @media (max-width: 360px) {
+    .contact, .steps { padding: 20px 18px 6px; }
+    .pill { font-size: .9375rem; }
+    .doc-links a { font-size: 1.3rem; padding-left: 20px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; }
+    .pill:hover, .doc-links a:hover, .doc-links a:hover .go, .pill:hover svg { transform: none; }
+  }
+
+  /* Print (counsel prints these): black text on white paper, link addresses written out */
+  @media print {
+    @page { margin: 16mm 15mm 18mm; }
+    :root { color-scheme: light; }
+    html, body { background: #fff !important; }
+    body { display: block; min-height: 0; color: #000; font-size: 10.5pt; line-height: 1.5; }
+    body::before, .title::after, h2::before, footer::before, .brand .rule, .pill::after, .go { display: none !important; }
+    .top { padding: 0 0 4pt; text-align: left; }
+    .brand { flex-direction: row; gap: 8pt; color: #000; }
+    .brand img { width: 20pt; filter: none; }
+    .brand .name { margin: 0; font-size: 8pt; letter-spacing: .32em; }
+    main, footer { max-width: none; margin: 0; padding: 0; }
+    main { padding-top: 12pt; }
+    .title { margin-bottom: 14pt; text-align: left; }
+    h1 { color: #000; font-size: 22pt; }
+    h1 em { background: none !important; color: #000 !important; -webkit-text-fill-color: #000; padding: 0; }
+    .meta, .meta strong, .eyebrow, .lead, strong, em, h2, h3, li::marker { color: #000 !important; }
+    .meta { margin-top: 6pt; letter-spacing: .1em; }
+    .eyebrow::before, .eyebrow::after { display: none; }
+    .lead { margin: 6pt 0 0; max-width: none; font-size: 11pt; }
+    h2 { margin: 16pt 0 6pt; padding-top: 0; border-top: 0; font-size: 14.5pt; break-after: avoid; page-break-after: avoid; }
+    h3 { margin: 12pt 0 4pt; font-size: 11.5pt; break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+    a { color: #000 !important; text-decoration: underline; text-decoration-color: #000 !important; }
+    main a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 85%; overflow-wrap: anywhere; }
+    .contact, .steps { margin: 10pt 0 12pt; padding: 10pt 12pt 2pt; border: .75pt solid #888; border-radius: 6pt; background: none !important; box-shadow: none !important; break-inside: avoid; }
+    .contact p { margin-bottom: 8pt; }
+    .contact .nowrap { display: inline; margin: 0; }
+    .contact strong { display: inline; margin: 0; font-size: inherit; letter-spacing: 0; text-transform: none; }
+    .pill { display: inline; min-height: 0; padding: 0; border-radius: 0; background: none !important; box-shadow: none !important; color: #000 !important; font-size: inherit; font-weight: 400; text-decoration: underline; }
+    .cta { margin-top: 12pt; text-align: left; }
+    .doc-links { gap: 6pt; }
+    .doc-links a { min-height: 0; padding: 6pt 10pt; border: .75pt solid #888; border-radius: 6pt; background: none !important; box-shadow: none !important; color: #000 !important; font-size: 13pt; }
+    table { display: table !important; margin: 8pt 0 12pt; border: .75pt solid #888; border-radius: 0; background: none !important; font-size: 9.5pt; }
+    tbody { display: table-row-group !important; }
+    tr { display: table-row !important; position: static !important; width: auto !important; height: auto !important; overflow: visible !important; clip: auto !important; clip-path: none !important; white-space: normal !important; padding: 0 !important; break-inside: avoid; }
+    th, td { display: table-cell !important; width: auto !important; margin: 0 !important; padding: 5pt 7pt !important; border-bottom: .5pt solid #bbb !important; background: none !important; color: #000 !important; }
+    th { letter-spacing: .08em; }
+    td[data-label]::before { content: none !important; }
+    footer { margin-top: 18pt; padding-top: 8pt; border-top: .5pt solid #888; color: #000; text-align: left; font-size: 9pt; }
   }
 </style></head><body>
-<header><div class="mark">B</div><div class="name">BookNStyle</div></header>
+<header class="top"><a class="brand" href="https://booknstyle.com/" aria-label="BookNStyle home"><img src="data:image/webp;base64,UklGRjANAABXRUJQVlA4TCQNAAAv94FyEPVYuK1t2Zvoz+JQd/dG6u4ed9ydXxb98j7XfT/3nbSsa9zlzWhxSamlxd0toUgHh2+o4DruEt6PYSRbTQU1oeJH0s8k1YEDKGHz/wd6VIy0sEHqUhrZC/pPiW0kSZJEy9io8M7qwRp2u3vu60dXpKGc29KHsc+U8C5J0SYVTS4yCpx19ZOmh1V1DVEmSiozTwvM9elhY1ia4unYpolHelixc5YNiBLp6PTUrDmiRD1/KIJf9EX+1sOKnJuP4kX4ow0V9laRyARvcDyiSUZfX9/UkDl01pz11Z4GS7/sc6ujCfynr4+JpRhWXwWeQK9W7t5mUzAXGbDDMHm9AuUekDQxTwlpeQGzNHmT8D0YKYIl8NzmqKCLFNhh4Fx/HCJNxFOuFLlnmQGoMFhXzOIg8hlGAV/JObdzjD5FHlS0KWzPMhvQ4lUf/8oWLjTCDoFSjudujCx5Av/c7tGKyEYZCj7IOogdMd2N8sDKwIbKPch3ZMCSuK7abpSUo4DuHSbqNKvpCXfhnXp1ku/YQNTpdjXyQN+zLOqUu3Y/4Sw8ilQM2FnZ44UG7BD2QmqmHCfynmX2xLegupkbf67CRuHfqjPM52bAoKhPPVmOiTc9+5oc0lOWJAcraF1RhHOOR4viW2ANNTJj7lkWbbo2Fl0XOGFH2coWpwh8zvloUw064FpaWw1wz7JYU7ezBhlusrZ9AK+AZ4WPFxhhR+HSGnjA7VlmVJPDi3g5CX+sw5XvnAGjuk+HK8tU3i4wYEfp2hqYfeTfGlz5zhowKn4t/xrIOp28UZWhYPa1tmjikwQG0aV4cb2JThIb2FODMGhjyU0SHhjTyLNQK0tmEmRgSUR1d+cnAQd29AhqZ8c7N4nB4Hwn7AhxALa0Sfeb+wRkEDnaV5fjBGpgP4/g1pbDBHBgPAdwbaOzgwnsIE707+5AOxPwQYwof7zAj0v0uJIpE5O80fRiTwQNLIbAk5gNzndgR+ny3r9Eqc1E6MBY6pUjojGLscyN64EH4jBM43GQ1R7iQOLEZkAHsiZmo/kgpcicb8COIIuTI3f349tr0oU/sZyRx8Zur5csewx5Eidxqa+AOZHsPCfsRKe+AtrEQbbSyXZSwJmYUb2wpP4KCBNLWpQD3B/ZUQphJ8Y04ixwdTKYQwqhJvbEfRILLCQ/MSr8Y9hBSoVyngM78ejv+jphdiKFZCa2JbfBtLMKNK5F2dEF/fFVnOdWv+hR61gwL16v1ZHdtm4NdSxYmFIbux6d2wk7wgqED8McCxa2lQVeqJ/PyMIWloA36U63+yLIsWBi/EijI7uxpeqeea4DO9IahE+QX29At7Y0p7MXhfj1w3jRwux+l/ix4EfJ/3rAur2lHZ4dKTK/vsdzOmFHWoP4cbxkjwVDW9UMX9K/Xl9DW1CiC0+Kds7nneCwvF9/e5ZBO6cDO9I8jJ4uDSnYOcvybkK0PctcbvaRLQouMPyqRKRI5wvbaPEHK9GgRLRzlvkJ1rnV0U1SqHOro5sQ7Zxl7rboWm312F+tdiZ3LIDs8Ns5DuwIsyDHJ+D5X5JfqqujszthR5hNfB4Az/CzZOlpT499HEDHxKRo5yxzE7IrxxqI9v3B+Fa2j7RdwHZ2B3aEuQk8w8/tdhQkh1+zzIDtSd6zzPQWZPeMuJw7PFqetJXDZXcrm4mb5DQwOjlfTNTJ/MGpFoZflkh+b21fiZkkNDCHzxXvb9b5XthGlnD+8IItfIWsRruIibzBWYOwI8v8EjrXl88CJm8GVTaAVRujT4IObOBTYMOugpUC/HpUrIvISQX/elTOGsCOLMDlTYCH2Jl95EWVw+gtkObV6uXwgyATA6OM9CSph6SJbRKhmPQkN7GGu8D/l4nR1wed1YEdUeZnR21u5rMoLWWPde5nNra0amU2R4NBgaRZVCnDFqfDVaBlfBvThPthOxH+7TnNbRMLPQT2Jh2OBdPYiXqTEhtN41XIFTlnDsKOJIidjYfskOTvf21sK9BINTba2kY56SQfwLmeQSn54ymdOYAdQTbyRCxMj422gbe87oNmehx7bGM5GpihoUhNNtoG3Et10Nvm2/AZGiFA/XwHtvEu3tLkSNuAW6oce82MzXQ5FmzjbrClzJFa03avMqYy0ixLbWNecRgbRUiqs1Ftuu4/YGQ1TcKODOPii1LRF1RImtoGTEPxTdMg7IgwDl6MfiptxPhPKbZpADtq9rYclQ5TWhzC0KvoMQjdbBAhPWYDC8TUZyCmPoMwdZo7AKZOMz39wn/m1m1uC6u0Bv0m+LP85o7AjxxnGdpt4VQak/al0xoHSQvTaL1GM6RxEnZwrZczWA/9pO+U+wj4yMxUWRU+hoQ/jZHGCewo0lSFM0nvWYb6XggbZJL+U+78XgDT0yL959+B7neg9SJB7veg40Hu96CS6olPhoQiXejfISYuNDZmgImFNA5gB8Sypt9LMje3THxoLOTPvpdcNvDsZ3OcQNKktDib40QlxZN+p+JDQ656I/G3Lx70xkvfS/pldtMwCTsJOiP8i2vcUNbH7xJNSY3DNF8aJtTNz3YPCZst8bSlZP9m63jbbrKb3ToRc9I2ZZ1vuGG/FemdG6alZUMOf3VPRSJLUY84A5PPk7t3r5cZ9GOOM0K5Qchv2bM75Juc+9wg5K2vBnyLc8QDgr/oZyHf4Oy3PIw8+WrQL2Tab3ooTw/5yZgcUj4L/KWLRwyifhF2iJXiFqE7WEJ2nzHUL2CHaCluHryGtSqWps6D/xZX9xryBYAyxsQ0gvoJ7BAyP0aoo8z7Gdd2GbLMGaKRr12GL+/CeOAxPALSyicOw/tgihkDaVUq9lVc3F34D6AH3sKXdwE9cBYeQSro577CsfAgNfSJNQm4oB64Cl/GaulrS5Jy2ewDy7oF7FBClpCiNWVGGl+LyYxI5WtbZz/hQbi2iqobkNrdHbQfxcubmpaXFLU4Bjh0Eh5E7Oz0UKajfH1P+8gZYUO2dreL8HHI2taYmI7u9xw7aDYxaDBi6iawI8xamaDVGU0cKhwd00GKaqCW97dIqZsNO7HocDFpnNQuYEecQ7D1TcnLXuJR4iF7icjlHls74zboHoeAKzSWuNToHf9DvpyDyH7hHGtUoC9DiU6Ri9h84xfQPe50jZ3YRboGsf3CNW7DbnJucyOJUpW+YaOrdjXsSLWYLvAuV9uMhZoN7MSpy8HJZbndoGMsYoW//ILw5mC43aBfrDaB9+MYqFnAjlyj47MHPm5BfHv87hGvuF7A5hWPSNicggLs8btH3G6PU+yX4PSwlVezGnYke2SngKzW6ROUYKffTcm37qo3sCO7TxHpXrTKRYRVJi4xB13G5hKn3eV2lGEhq9t92P3uXrfbPNjtPvSIu93uYyFGPel2q0z0Vr0bdmSbXO7XhURv1athR3qjQtL1qmoDO9IbFZLZGG63gNXtBnZ8d+pdbvdu96EFYmJe4A/vbmeoajfsCDcb/SEp2dFJ5QvsSFf5Qkqufd6ksrpY/1G5gR3hZjfvk5Ltf81nc7s+46jcDTvSGxWTHZ1UvMCO9EbFZLt5s9C73Y1I6XbcYdcpUFKs8OkPB43zuljxNuzINgu/bwsJ/WGeqNu9vZ2KieXWW/kH7AgvVEiot/IX2BFeqJC43YbZ3W5CXQ4x4nmknB1iJrrblYrJsNynRwjZT7m329HrnnM7dskqfxt2JHvwUQn5hUv8QgS6hIi1YR5ux+52T2iv7AN2JD/zWwJCnygVFWB4SqcQsXvdDAq3o1N8F9/JUF6xtAu89avTKwTMvK5Uze0YBWVvw45YpXLdAp6TYfsF+tpLr6NfTCg3+nKMdbNjm0HuGbdAWz8POka/iWbktg/YEWpJF+wiXeNzZP1eNywlXeNlYCVq9A3o5XTrVqelxOXZ9A7g5R1f4S73wP0EI2Tb17ATjxqHpYfusaRP2OUfsMs/jqC+k3QQ0OUh/ZjLRUy1uPUHdsS9HLC3tZvpI5DLR6Zx2Gpx6wfsKN9giSqdZIlPOEfoJa+AWbuY9JJeuNvcZFxdcLf5CdxtMbT1a9gRZM3qUGWV6EVHKVZ9AslJsOko+58AsnZ10lOeADKdvnSVn0JNrUjbm0hfGQB6liVpuv7D6GbLD+xIUGQG0s+azaQxqbm+QXNSchWbkvak4lo8hPSX1ZtB7vCXE6EQapnGTjrMzzA+irQr1W4bmpO0LL1u+2sv458tf8MOrNW7h25jze4kXWZxn6G7GFdv0meKTAMXsXjM5r+3KZ+ZRt/A71eG5oeWyJavYQfNkJSrV+8NmmnkJH3maG/QHCXpM9PwG3hyC+ky9/UCvFsxic0/sBPeCbGmkv8hbN4ekpOxy1SOP6iVwcHBcM9dtfkPoVNk2vLGIoJUzKIhg4P3J2BwcBfGv+LYtkhGkiHy9nG2xNmKTFt9HOEpSO9RXK3ItM1zPe34Dxj9TGXf/Le4psiuV9u+Pi979VX6KCfCfrX9LBoz2H9ir/6chgkB" width="504" height="459" alt=""><span class="name">BookNStyle</span><span class="rule"></span></a></header>
 <main>
 
-<h1>Delete your BookNStyle account</h1>
-<p><strong>App:</strong> BookNStyle &nbsp;·&nbsp; <strong>Developer:</strong> BookNStyle LLC &nbsp;·&nbsp; <strong>Last updated: September 28, 2026</strong></p>
+<div class="title">
+<h1>Delete your <em>BookNStyle account</em></h1>
+<p class="meta"><span class="nowrap"><strong>App:</strong> BookNStyle &nbsp;·</span>&nbsp; <span class="nowrap"><strong>Developer:</strong> BookNStyle LLC &nbsp;·</span>&nbsp; <strong class="nowrap">Last updated: September 28, 2026</strong></p>
+</div>
 
 <p>This page explains how to request deletion of your BookNStyle account and the data associated with it, what gets deleted, what we are required to keep, and for how long.</p>
 
@@ -76,33 +268,33 @@
   <tr><th>What we keep</th><th>Why</th><th>How long</th></tr>
   <tr>
     <td>Transaction and payment records: amounts, dates, and booking fees</td>
-    <td>Tax, accounting, and financial-reporting obligations</td>
-    <td>Up to <strong>7 years</strong></td>
+    <td data-label="Why">Tax, accounting, and financial-reporting obligations</td>
+    <td data-label="How long">Up to <strong>7 years</strong></td>
   </tr>
   <tr>
     <td>Records connected to an open dispute, chargeback, or legal claim</td>
-    <td>To resolve the matter and defend legal rights</td>
-    <td>Until resolved, then per the periods above</td>
+    <td data-label="Why">To resolve the matter and defend legal rights</td>
+    <td data-label="How long">Until resolved, then per the periods above</td>
   </tr>
   <tr>
     <td>Safety reports (ones you made and ones made about you), kept as written, with the link to your account removed (your other support requests are deleted)</td>
-    <td>A safety and legal record</td>
-    <td>As long as needed for safety and legal purposes</td>
+    <td data-label="Why">A safety and legal record</td>
+    <td data-label="How long">As long as needed for safety and legal purposes</td>
   </tr>
   <tr>
     <td>Limited fraud and abuse signals</td>
-    <td>To prevent a banned user from immediately re-registering</td>
-    <td>Up to <strong>2 years</strong></td>
+    <td data-label="Why">To prevent a banned user from immediately re-registering</td>
+    <td data-label="How long">Up to <strong>2 years</strong></td>
   </tr>
   <tr>
     <td>Copies inside routine encrypted backups</td>
-    <td>Backups are written as whole snapshots and cannot be edited individually</td>
-    <td>Not deleted on a fixed schedule; used only to recover from data loss (our hosting provider&rsquo;s own backups expire after a limited time)</td>
+    <td data-label="Why">Backups are written as whole snapshots and cannot be edited individually</td>
+    <td data-label="How long">Not deleted on a fixed schedule; used only to recover from data loss (our hosting provider&rsquo;s own backups expire after a limited time)</td>
   </tr>
   <tr>
     <td>Aggregated or de-identified statistics</td>
-    <td>Cannot be linked back to you</td>
-    <td>Indefinitely</td>
+    <td data-label="Why">Cannot be linked back to you</td>
+    <td data-label="How long">Indefinitely</td>
   </tr>
 </table>
 
